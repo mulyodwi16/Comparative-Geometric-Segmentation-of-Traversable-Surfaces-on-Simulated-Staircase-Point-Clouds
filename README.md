@@ -27,11 +27,14 @@ class, plus a noise sweep over LiDAR `sigma in {0, 0.005, 0.01, 0.02, 0.03, 0.05
 MiniProject/
   staircase_segmentation.ipynb   main deliverable notebook
   _dev.py                        development script (mirror of notebook logic)
+  _make_notebook.py              notebook builder
   data/                          generated cloud + metrics
   figures/                       rendered figures
-  paper/                         IEEE conference paper (LaTeX)
   requirements.txt
 ```
+
+The IEEE conference paper (LaTeX + PDF) is maintained separately, outside this
+code repository.
 
 ## Reproduce
 
